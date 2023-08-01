@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Base </title>
+    <link rel="stylesheet" type="text/css" href="./index.css">   
+    
+</head>
+    <body>    
+        <div>
+            <div id="form_header_container">
+                <h2 id="form_header">Register:</h2><br/>
+            </div>
+            <div id="form_container">
+                <form>                
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Name" required >
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"  placeholder="Email" required>
+                    
+                    <select id="option-select" required>
+                        <option value="">Select an option</option>
+                        <option value="Option1">Option 1</option>
+                        <option value="Option2">Option 2</option>
+                        <option value="Option3">Option 3</option>
+                    </select>
+                    
+                    <label for="password">ID</label>
+                    <input type="password" id="psw"  name="psw" placeholder="ID" required>
+                
+                    <label for="">Ocupation</label>
+                    <input type="text" id="job" name="job"  placeholder="Ocupation" >
+                    <button type="button" id="submitData" name="submitData" >Sign Up</button>
+                    
+                    <div id="button_container">
+                    <p> Already have an account? <a href="./logIn.html">Sign In</a></p>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </body>
+    
+    <script type="module" src="./index.js"></script>
+
+</html>
+
